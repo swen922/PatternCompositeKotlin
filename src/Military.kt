@@ -85,6 +85,8 @@ class MilitaryMan : Military {
     }
 }
 
+/**  Компоновщик, также известен как: Дерево, Composite */
+
 fun main(args : Array<String>) {
     var general : Military = MilitaryMan(Rank.GENERAL)
 
