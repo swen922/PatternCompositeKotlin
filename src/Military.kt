@@ -107,5 +107,6 @@ fun main(args : Array<String>) {
 
     println("\n\ngeneral.bandSize() = " + general.bandSize() + "\n")
     general.order("GO TO WAR!!!")
+    general.getMyBand().get(0).perform(Rank.COLONEL, "Let's go drink wiskey!")
     general.getMyBand().get(0).perform(Rank.SERGEANT, "Fuck You!")
 }
